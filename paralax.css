@@ -1,0 +1,55 @@
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: inherit;
+    background-attachment: fixed;
+    background-size: cover;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.light{
+    background-color: #f4f4f4;
+    color: black;
+}
+.dark{
+    background-color: #282e34;
+    color: white;
+}
+#first_image{
+    background-image:url(images/1st.jpg);
+    min-height: 500px;
+}
+#second_image{
+    background-image: url(images/2nd.jpg);
+    min-height: 500px;
+}
+#third_image{
+    background-image: url(images/3rd.jpg);
+    min-height: 500px;
+}
+#fourth_image{
+    background-image: url(images/4th.jpg);
+    min-height: 500px;
+}
+#fifth_image{
+    background-image: url(images/5th.jpg);
+    min-height: 500px;
+}
+.text{
+    position: relative;
+    font-size: xx-large;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,200px);
+    max-width: fit-content;
+    text-transform: uppercase;
+    background-color: #111;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    opacity: 0.8;
+}
